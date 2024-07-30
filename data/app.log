@@ -1,0 +1,7 @@
+2024-07-30 13:43:09 DEBUG     main Mode débug activé
+2024-07-30 13:43:09 DEBUG     main cogs.commands.ping chargé
+2024-07-30 13:43:09 DEBUG     main cogs.events.on_message chargé
+2024-07-30 13:43:09 DEBUG     main cogs.menus.receive chargé
+2024-07-30 13:43:09 DEBUG     main cogs.tasks.example chargé
+2024-07-30 13:43:12 INFO     main Vouch MCBE#3849 est connecté avec 2 commande(s) synchronisée(s) sous la version 1.0.0
+2024-07-30 13:43:12 DEBUG     example Task Example handled
