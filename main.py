@@ -67,11 +67,10 @@ class client(commands.Bot):
             await self.load_extension(ext)
             log.write('main', f'{ext} chargé', log.levels.debug)
         
-        global synced
-        synced = await bot.tree.sync()
+        self.synced = await bot.tree.sync()
         
     async def on_ready(self):
-        log.write('main', f'{self.user} est connecté avec {len(synced)} commande(s) synchronisée(s) sous la version {data["version"]}', log.levels.info)
+        log.write('main', f'{self.user} est connecté avec {len(self.synced)} commande(s) synchronisée(s) sous la version {data["version"]}', log.levels.info)
         await asyncio.create_task(console())
     
 
